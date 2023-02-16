@@ -1,0 +1,11 @@
+body > aside input{
+  display: none;
+}
+
+body > aside input + ul {
+  display: none;
+}
+
+body > aside input:checked + ul {
+  display: block;
+}

@@ -19,32 +19,115 @@
 </head>
 <body>
   <header>
-    블로그 이름 / 검색 바 / 프로필 사진(작은것)
-    홈, 방명록, 태그 등 메뉴
+    <!-- 블로그 이름 / 검색 바 / 프로필 사진(작은것)
+    홈, 방명록, 태그 등 메뉴 -->
+    <div id="header-top">
+      <h1>수민's Blog</h1>
+      <div>
+        <input type="text" placeholder="검색 내용을 입력하세요">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div>
+        <div>
+          <img src="#" alt="profile">
+        </div>
+      </div>
+    </div>
+    <div id="header-bottom">
+      <button>홈</button>
+      <button>방명록</button>
+      <button>태그</button>
+    </div>
   </header>
   <aside>
-    사이드 바 - 카테고리, 최근 글
-    전체보기
-    Code
-    - HTML
-    - CSS
-    - JavaScript
-    - React
-    자기개발
-    - notion
-    - slack
-    프로젝트
-    - 개인 프로젝트
-      - A 프로젝트
-      - B 프로젝트
-    - 팀 프로젝트
-      - 팀 A 프로젝트
-    일상
-    - 다이어리
-    - 일기
+    <ul>
+      <li>
+        <a href="#">전체보기</a>
+      </li>
+      <li>
+        <label for="code">Code</label>
+        <input type="checkbox" id="code">
+        <ul>
+          <li>
+            <a href="#">HTML</a>
+          </li>
+          <li>
+            <a href="#">CSS</a>
+          </li>
+          <li>
+            <a href="#">JavaScript</a>
+          </li>
+          <li>
+            <a href="#">React</a>
+          </li>
+          <li>
+            <a href="#">Python</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <label for="study">자기개발</label>
+        <input type="checkbox" id="study">
+        <ul>
+          <li>
+            <a href="#">notion</a>
+          </li>
+          <li>
+            <a href="#">slack</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <label for="project">프로젝트</label>
+        <input type="checkbox" id="project">
+        <ul>
+          <li>
+            <label for="private_project">개인 프로젝트</label>
+            <input type="checkbox" id="private_project">
+            <ul>
+              <li>
+                <a href="#">A 프로젝트</a>
+              </li>
+              <li>
+                <a href="#">B 프로젝트</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="team_project">팀 프로젝트</label>
+            <input type="checkbox" id="team_project">
+            <ul>
+              <li>
+                <a href="#">팀 A 프로젝트</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <label for="life">일상</label>
+        <input type="checkbox" id="life">
+        <ul>
+          <li>
+            <a href="#">다이어리</a>
+          </li>
+          <li>
+            <a href="#">여행</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </aside>
   <section>
-    전체 글 - grid 형식으로
+    <div>임시-1</div>
+    <div>임시-2</div>
+    <div>임시-3</div>
+    <div>임시-4</div>
+    <div>임시-5</div>
+    <div>임시-6</div>
+    <div>임시-7</div>
+    <div>임시-8</div>
+    <div>임시-9</div>
   </section>
 </body>
 </html>

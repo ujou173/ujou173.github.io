@@ -1,0 +1,24 @@
+@charset 'uft-8';
+:root{
+  --font-color-black:#333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color-black);
+}
+
