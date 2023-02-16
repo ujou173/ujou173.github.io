@@ -1,2 +1,11 @@
 @charset 'uft-8';
 
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+header #header-top {
+  display: flex;
+}
